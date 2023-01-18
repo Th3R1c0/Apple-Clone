@@ -21,7 +21,7 @@ function Landing() {
 
     <div className="relative hidden border-l border-black sm:h-[350px] min-w-[450px] transition-all duration-500 md:inline lg:h-[350px] lg:w-[500px]">  {/*fix this shit */}
             {/*<Image src="/watch.webp" className='asbolute -left-[100px]' />*/}
-            <Image src="/watch2.webp" className='relative ' fill/>
+            <Image alt='' src="/watch2.webp" className='relative ' fill/>
       </div>
     </section>
     </>

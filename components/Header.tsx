@@ -35,7 +35,7 @@ function Header() {
       
       <Link href="/checkout">
           <div className="relative cursor-pointer">
-          <ShoppingCartIcon className="h-6 h-6 text-gray-500" />
+          <ShoppingCartIcon className="w-6 h-6 text-gray-500" />
           <span className="absolute -right-1 -top-1 z-50 flex h-4 w-4 items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-violet-500 text-[10px] text-white">
                 5
               </span>
@@ -53,7 +53,7 @@ function Header() {
             height={34}
           />
         ) : (
-          <UserCircleIcon className="h-6 h-6 text-gray-500"/>
+          <UserCircleIcon className="w-6 h-6 text-gray-500"/>
         )}
 
 
