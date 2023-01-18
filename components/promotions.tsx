@@ -85,7 +85,7 @@ function MyTabs() {
         </Tab.List>
         <Tab.Panels>
             {Object.values(categories).map((category, idx) => (
-                <Tab.Panel key={idx} className='md:flex p-4 md:space-x-4 md:space-y-0 space-y-4'>
+                <Tab.Panel key={idx} className='md:flex p-4 md:space-x-4 md:space-y-0 space-y-4 '>
                     {category.map(product => (
                         <div key={product.id} className='md:w-1/3 h-max bg-[#35383C] p-2 flex flex-col items-center rounded-md'>
                             <Image alt='' src={`/${product.img}`} width={400} height={500}/>
