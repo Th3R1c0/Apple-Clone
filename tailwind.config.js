@@ -8,5 +8,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+        // Or with a custom prefix:
+        require('@headlessui/tailwindcss')({ prefix: 'ui' })
+  ],
 }
