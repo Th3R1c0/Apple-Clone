@@ -87,14 +87,14 @@ function MyTabs() {
             {Object.values(categories).map((category, idx) => (
                 <Tab.Panel key={idx} className='md:flex p-4 md:space-x-4 md:space-y-0 space-y-4 '>
                     {category.map(product => (
-                        <div key={product.id} className='md:w-1/3 h-max bg-[#35383C] p-2 flex flex-col items-center rounded-md'>
+                        <div key={product.id} className='md:w-1/3 h-max bg-[#35383C] p-8 flex flex-col items-center rounded-md'>
                             <Image alt='' src={`/${product.img}`} width={400} height={500}/>
                             <div className='flex justify-between w-full items-center'>
                                 <div className='flex flex-col'>
                                     <h1 className='tracking-wide text-4xl font-semibold'>{product.title}</h1>
                                     <p className='tracking-wide text-2xl '>{product.price}</p>
                                 </div>
-                                <div className="flex h-16 w-16 flex-shrink-0 cursor-pointer items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-violet-500 md:h-[70px] md:w-[70px]">
+                                <div className="flex h-10 w-10 flex-shrink-0 cursor-pointer items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-violet-500 md:h-[70px] md:w-[70px]">
                                 <ShoppingBagIcon className="w-6 h-6" />
                                 </div>
                             </div>

@@ -10,6 +10,7 @@ module.exports = {
   },
   plugins: [
         // Or with a custom prefix:
-        require('@headlessui/tailwindcss')({ prefix: 'ui' })
+        require('@headlessui/tailwindcss')({ prefix: 'ui' }),
+        require('tailwindcss-bg-patterns'),
   ],
 }

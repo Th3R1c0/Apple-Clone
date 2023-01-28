@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/footer'
 import Header from '../components/Header'
 import Landing from '../components/Landing'
 import Promotions from '../components/promotions'
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         <Landing />
       </main>
       <Promotions />
+      <Footer />
     </div>
   )
 }
